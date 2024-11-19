@@ -1,5 +1,10 @@
+:root {
+    --primary-color: rgb(0, 83, 139);
+    --image-box-shadow: 0 0 30px gray;
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--primary-color);
     padding: 10px;
 }
 
@@ -10,7 +15,7 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    color: var(--primary-color);
 }
 
 main img {
@@ -18,7 +23,7 @@ main img {
     height: auto;
     border: 1px solid black;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: var(--image-box-shadow);
 }
 
 p {
