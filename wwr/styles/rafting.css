@@ -287,24 +287,6 @@ i {
     border-radius: 0.4rem;
 }
 
-.employee-details {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 1rem;
-}
-
-.employee-details span {
-    font-weight: 600;
-}
-
-.employee-details figcaption {
-    font-size: 0.7rem;
-    text-align: start;
-}
-
-
 .form-section {
     background-color: var(--accent1-color);
     display: flex;
