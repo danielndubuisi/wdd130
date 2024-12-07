@@ -296,7 +296,7 @@ i {
 
 .form-section p {
     font-size: 0.9rem;
-    color: rgb(149, 148, 148);
+    color: rgb(85, 85, 85);
 }
 
 form {
@@ -326,7 +326,7 @@ input[type="checkbox"], input[type="radio"] {
     vertical-align: bottom;
 }
 
-.msg {
+p .msg {
     margin: -0.2rem 0 0.5rem 0.5rem;
 }
 
