@@ -41,6 +41,7 @@ p {
     font-weight: 600;
     border: 1px solid black;
     margin: 0 auto;
+    font-family: "Roboto", sans-serif;    
 }
 
 /* header styles */
