@@ -31,6 +31,18 @@ p {
     color: #000;
 }
 
+.card a, .box a {
+    text-decoration: none;
+    background-color: #0c59cf;
+    color: var(--text-white-color);
+    border-radius: 0.2rem;
+    padding: 0.5rem 0.9rem;
+    font-size: 0.6rem;
+    font-weight: 600;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
 /* header styles */
 header {
     display: grid;
@@ -66,7 +78,7 @@ nav a {
 .hero img {
     display: block;
     width: 100%;
-    height: auto;
+    height: 300px;
     object-fit: cover;
 }
 
@@ -75,15 +87,22 @@ nav a {
     top: 5px;
     left: 205px;
     color: var(--heading-white-color);
+    background-color: #06161b80;
 }
 
 .hero article {
     position: absolute;
-    bottom: 200px;
+    bottom: 100px;
     left: 30px;
     margin-right: 20px;
     opacity: 1;
-    background-color: #184c5d80;
+    background-color: #06161b80;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.3rem;
+    padding-left: 0.5rem;
 }
 
 .hero article img {
@@ -95,7 +114,7 @@ nav a {
 
 .hero article p {
     color: var(--text-white-color);
-    font-size: 0.9rem;
+    font-size: 1.08rem;
 }
 
 section {
@@ -136,6 +155,35 @@ figcaption {
     width: 80px;
     height: 60px;
     object-fit: cover;
+}
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    background-color: #eee;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+
+}
+
+.trip {
+    text-align: center;
+}
+
+table {
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+td, th {
+    width:  140px;
+    border: 1px solid #000;
+    padding: 0.6rem;
+    text-align: center;
 }
 
 /* contact us styles */
@@ -209,6 +257,7 @@ figcaption {
     align-items: center;
     justify-content: center;
     gap: 10px;
+    justify-content: space-between;
 }
 
 .company-info {
@@ -226,6 +275,7 @@ figcaption {
     align-items: flex-start;
     justify-content: space-between;
     gap: 1rem;
+    margin-left: 20px;
 }
 
 .info {
@@ -269,8 +319,8 @@ i {
 
 
 .employees img {
-    width: 150px;
-    height: auto;
+    width: 400px;
+    height: 100px;
     object-fit: cover;
     border-radius: 0.4rem;
 }
